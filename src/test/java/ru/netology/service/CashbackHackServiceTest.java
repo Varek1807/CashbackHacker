@@ -9,7 +9,7 @@ public class CashbackHackServiceTest {
     @Test
     public void remain() {
         CashbackHackService service = new CashbackHackService();
-        int expected = 100;
+        int expected = 10;
         int amount = 2990;
 
         int actual = service.remain(amount);
