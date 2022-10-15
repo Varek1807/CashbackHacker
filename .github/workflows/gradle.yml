@@ -13,6 +13,8 @@ on:
       - master
       - junit4
       - testng
+      pull_request:
+
 jobs:
   build:
 
